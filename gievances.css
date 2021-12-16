@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-boxing;
+}
+
+html{
+    font-size:16px;
+}
+
+body{
+    background-color: black;
+}
+.asterisk{
+    color:red;
+}
+.gievances{
+    border-color:red;
+}
+.grievances-header{
+    /* color:red; */
+    color: white;
+    margin-top:2rem;
+    margin-left: 3rem;
+}
+.grievances-block{
+    display:inline-flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin : 7rem 3rem;
+}
+.grievances-instruction{
+    /* display:inline-flex; */
+    color:white;
+    font-size:1rem;
+    text-align:center;
+}
+
+.grievances-input textarea{
+    height: 3rem;
+    width:max-content;
+}
+.grievances-cancel{
+    background-color:rgb(196, 196, 196);
+    font-size:1.2rem;
+}
+.grievances-register{
+    background-color:rgb(196, 196, 196);
+    font-size:1.2rem;
+}
+
+/* size of font decreasing drastically */
+@media screen and (max-width:768) {
+    .grievances-instruction{
+        font-size:1.2rem;
+    }
+}
