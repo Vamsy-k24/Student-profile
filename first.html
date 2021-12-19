@@ -1,106 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Student's Profile</title>
     <!-- Add CSS stylesheet -->
-    <link rel="stylesheet" href="yourachievements.css">
+    <link rel="stylesheet" href="yourachievements.css" />
     <!-- Add icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet" />
+    <!--load all styles -->
+  </head>
 
-<body>
+  <body>
     <div class="students-profile">
-        <!--<nav class = "navbar">Navbar</nav>-->
-        <div class="your-achievements">
-            <h2>Your achievements</h2>
-            <div class="achievements-content">
-                <h3> Technology</h3>
-                <article class="achievement">
-                    <p class="achievement-title">Description</p>
-                    <p class="achievement-description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    </p>
-                    
-                    <div class="buttons">
-                        <button class="btn"> <i class="fa fa-download"></i> Download Certificate</button>
-                    </div>
-                    
-                </article>
-                <h3> Social and Culture</h3>
-                <article class="achievement">
-                    <p class="achievement-title">Description</p>
-                    <p class="achievement-description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    </p>
-                    <div class="buttons">
-                        <button class="btn"> <i class="fa fa-download"></i>  Download Certificate</button>
-                    </div>
-    
-                </article>
-                <h3> Sports and games</h3>
-                <article class="achievement">
-                    <p class="achievement-title">Description</p>
-                    <p class="achievement-description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    </p>
-                    <div></div>
-                    <div class="buttons">
-                        <button class="btn"> <i class="fa fa-download"></i>  Download Certificate</button>
-                    </div>
-    
-                </article>
-                <h3> Students welfare</h3>
-                <article class="achievement">
-                    <p class="achievement-title">Description</p>
-                    <p class="achievement-description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    </p>
-                    <div class="buttons">
-                        <button class="btn"> <i class="fa fa-download"></i>  Download Certificate</button>
-                    </div>
-    
-                </article>
-                <h3> Others</h3>
-                <article class="achievement">
-                    <p class="achievement-title">Description</p>
-                    <p class="achievement-description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    </p>
-                    <div class="buttons">
-                        <button class="btn"> <i class="fa fa-download"></i>  Download Certificate</button>
-                    </div>
+      <!--<nav class = "navbar">Navbar</nav>-->
 
-                </article>
-            </div>
-        </div>
-        <div class="floating-links">
-            <div class = "floating-links-dark">
-                <a href="#">Your Achievements</a>
-            </div>
-            <div class = "floating-links-light">
-                <a href="#">Technology</a>
-            </div>
-            <div class = "floating-links-dark">
-                <a href="#">Social and Culture</a>
-            </div>
-            <div class = "floating-links-light">
-                <a href="#">Sports and Games</a>
-            </div>
-            <div class = "floating-links-dark">
-                <a href="#">Student's Welfare</a>
-            </div>
-            <div class = "floating-links-light">
-                <a href="#">Others</a>
-            </div>
-        </div>
+      <div id="your-achievements">
+        <h2>Your achievements</h2>
+        <div class="achievements-content">
+          <div id="technology">
+            <h3>Technology</h3>
+            <article class = "no-achievement">
+                <p class = "no-achivement-title"> ---x---x---x--- You have no achivement in this field ---x---x---x---</p>
+            </article>
+            <article class="achievement">
+              <p class="achievement-title">Description</p>
+              <p class="achievement-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
 
+              <div class="buttons">
+                <button class="btn">
+                  <i class="fa fa-download"></i> Download Certificate
+                </button>
+              </div>
+            </article>
+          </div>
+          <div id="social-and-culture">
+            <h3>Social and Culture</h3>
+            <article class = "no-achievement">
+                <p class = "no-achivement-title"> ---x---x---x--- You have no achivement in this field ---x---x---x---</p>
+            </article>
+            <article class="achievement">
+              <p class="achievement-title">Description</p>
+              <p class="achievement-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
+              <div class="buttons">
+                <button class="btn">
+                  <i class="fa fa-download"></i> Download Certificate
+                </button>
+              </div>
+            </article>
+          </div>
+          <div id="sports-and-games">
+            <h3>Sports and games</h3>
+            <article class = "no-achievement">
+                <p class = "no-achivement-title"> ---x---x---x--- You have no achivement in this field ---x---x---x---</p>
+            </article>
+            <article class="achievement">
+              <p class="achievement-title">Description</p>
+              <p class="achievement-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
+              <div></div>
+              <div class="buttons">
+                <button class="btn">
+                  <i class="fa fa-download"></i> Download Certificate
+                </button>
+              </div>
+            </article>
+          </div>
+          <div id="students-welfare">
+            <h3>Students welfare</h3>
+            <article class = "no-achievement">
+                <p class = "no-achivement-title"> ---x---x---x--- You have no achivement in this field ---x---x---x---</p>
+            </article>
+            <article class="achievement">
+              <p class="achievement-title">Description</p>
+              <p class="achievement-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
+              <div class="buttons">
+                <button class="btn">
+                  <i class="fa fa-download"></i> Download Certificate
+                </button>
+              </div>
+            </article>
+          </div>
+          <div id="others">
+            <h3>Others</h3>
+            <article class = "no-achievement">
+                <p class = "no-achivement-title"> ---x---x---x--- You have no achivement in this field ---x---x---x---</p>
+            </article>
+            <article class="achievement">
+              <p class="achievement-title">Description</p>
+              <p class="achievement-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
+              <div class="buttons">
+                <button class="btn">
+                  <i class="fa fa-download"></i> Download Certificate
+                </button>
+              </div>
+            </article>
+            <article class="achievement">
+              <p class="achievement-title">Description</p>
+              <p class="achievement-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
+              <div class="buttons">
+                <button class="btn">
+                  <i class="fa fa-download"></i> Download Certificate
+                </button>
+              </div>
+            </article>
+            <button class="add-other-achievement-btn">
+                <a href="addachievement.html" >Request to add an achivement in Others category</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="floating-links">
+        <div class="floating-links-dark">
+          <a href="#your-achievements">Your Achievements</a>
+        </div>
+        <div class="floating-links-light">
+          <a href="#technology">Technology</a>
+        </div>
+        <div class="floating-links-dark">
+          <a href="#social-and-culture">Social and Culture</a>
+        </div>
+        <div class="floating-links-light">
+          <a href="#sports-and-games">Sports and Games</a>
+        </div>
+        <div class="floating-links-dark">
+          <a href="#students-welfare">Student's Welfare</a>
+        </div>
+        <div class="floating-links-light">
+          <a href="#others">Others</a>
+        </div>
+        <div id="students-grievances-form">
+            <a href="grievances.html">Student's Grievances form</a>
+        </div>
+      </div>
     </div>
-
-</body>
-
+  </body>
 </html>
