@@ -1,30 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AddAchivement</title>
-    <link rel="stylesheet" href="addachievement.css"/>
-</head>
-<body>
-    <h2>Add achievement</h2>
-    <div>
-        <p>Title<spam class="asterisk">*</spam>:</p>
-        <input class="add-achivement-title">
+    <link rel="stylesheet" href="addachievement.css" />
+  </head>
+  <body>
+    <div id="add-achivement">
+      <div id="achievement-content-input-div">
+        <h1>Add Achievement</h1>
+        <p>Request TSG officials to add an achievement in Others category</p>
+        <div>
+          <p class="title-text">Title<spam class="asterisk">*</spam> :</p>
+          <input class="add-achivement-title" />
+        </div>
+        <div>
+          <p class="description-text">
+            Description<span class="asterisk">*</span> :
+          </p>
+          <textarea class="add-achievement-decription"></textarea>
+        </div>
+      </div>
+
+        <button class="upload-achievement-certificate">
+          Upload Certificate<span class="asterisk">*</span>
+        </button>
+      <div class = "add-cancel-btns">
+        <button
+          class="cancel-achivement-addition"
+          onclick="location.href='yourAchievements.html' "
+          type="button"
+        >
+          Cancel
+        </button>
+        <button class="add-achivement-button">ADD Achievement</button>
+      </div>
+      
     </div>
-    <div>
-        <p>Description<span class="asterisk">*</span>:</p>
-        <input class="add-achievement-decription">
-    </div>
-    <button class = "upload-achivement">
-        Upload<span class="asterisk">*</span>
-    </button>
-    <button class="cancel-achivement-addition">
-        Cancel<span class="asterisk">*</span>
-    </button>
-    <button class="add-achivement-button">
-        ADD<span class="asterisk">*</span>
-    </button>
-</body>
+  </body>
 </html>
